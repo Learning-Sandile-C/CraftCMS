@@ -1,0 +1,22 @@
+dateModified: 1645860457
+email:
+  fromEmail: SandileCele101@gmail.com
+  fromName: 'Craft Training'
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    219a0cda-e5e3-4e7f-a390-3c3f80ccc02d: 'Craft Training' # Craft Training
+    c25bf57f-6e76-4f48-8b0c-ea104a998940: Common # Common
+    ffabebe0-14cb-41b6-bdff-dc57cc98372a: 'Craft Training' # Craft Training
+system:
+  edition: solo
+  live: true
+  name: 'Craft Training'
+  schemaVersion: 3.7.33
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true
