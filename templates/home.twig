@@ -1,0 +1,17 @@
+    {% extends "index" %}
+    
+    {% block content %}
+    
+    <h1>Advantage learn</h1>
+
+    {# Static image #}
+    <img src="{{ siteUrl }}/assets/images/banner.png" alt="Banner" width="350">
+
+    {# Content from control panel #}
+    {{ entry.richText }}
+
+    {# "entry" knows where the site url is #}
+    <img src="{{ entry.featureImage.one().getUrl('large') }}" alt="Feature image">
+    {# NOTE: Image transformed via CP #}
+
+    {% endblock %}

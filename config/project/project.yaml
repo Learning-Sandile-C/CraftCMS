@@ -1,13 +1,28 @@
-dateModified: 1645860457
+dateModified: 1646056270
 email:
   fromEmail: SandileCele101@gmail.com
   fromName: 'Craft Training'
   transportType: craft\mail\transportadapters\Sendmail
 meta:
   __names__:
+    3eb1cae3-c074-4ee6-93e4-df4393a298c7: 'Contact us' # Contact us
+    9c084524-8281-417e-aaf6-10555f9203d6: Home # Home
+    12e9e4e2-c48c-4372-afe8-06e78424c22c: 'Rich Text' # Rich Text
+    015b804f-0ea5-4ebb-8dfa-c84767bf9727: large # large
     219a0cda-e5e3-4e7f-a390-3c3f80ccc02d: 'Craft Training' # Craft Training
+    284e99da-a9e8-4229-b2e0-a276317b6fc1: 'Feature image' # Feature image
+    686c4739-4c88-473a-9209-08e8db9955d2: 'Contact us' # Contact us
+    af3c31ee-10a4-46cb-9a09-49ad7ba98b90: Home # Home
+    c10fa4cb-467a-40f9-8f82-2d6eb8c7c097: 'About us' # About us
     c25bf57f-6e76-4f48-8b0c-ea104a998940: Common # Common
+    c31fe3e0-0fc3-4866-bd08-325c48ec6314: 'About us' # About us
+    fc318d96-dbd5-49f3-9503-eb70d4c5c30e: Uploads # Uploads
     ffabebe0-14cb-41b6-bdff-dc57cc98372a: 'Craft Training' # Craft Training
+plugins:
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
 system:
   edition: solo
   live: true

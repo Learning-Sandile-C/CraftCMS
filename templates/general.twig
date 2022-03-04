@@ -1,0 +1,13 @@
+{# THIS will make page require login: {% requireLogin %} #}
+
+{% extends "index" %}
+
+{% block content %}
+
+<h1>{{ entry.title  }}</h1>
+
+<p>Today is {{ now|date('M j, Y') }}</p>
+
+{{ entry.richText }}
+
+{% endblock %}     
